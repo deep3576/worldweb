@@ -97,8 +97,12 @@
                   ><span class="home-nav42 bodySmall">Projects</span
                   ><span class="home-nav52 bodySmall">Contact</span></nav
                 ><div class="home-buttons1"
-                  ><button class="buttonFlat">Login</button
-                  ><button class="buttonFilled">Register</button></div
+                  ><button class="buttonFlat" >Login</button
+                  ><button class="buttonFlat" onclick="chatbot()">ChatBot</button
+                    ><button class="buttonFlat" onclick="portainer()">Portainer</button
+                      ><button class="buttonFlat" onclick="openmediavault()">Open Media Vault</button
+                        >
+                       <button class="buttonFilled" >Register</button></div
                 ></div
               ><div
                 ><svg
@@ -480,6 +484,30 @@
     ></div>
     <script
       data-section-id="navbar"
-      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script></body
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts">
+              
+      function portainer() {
+        // Replace 'https://example.com' with the URL you want to open
+        var url = 'https://portainer.hiheadquarter.uk';
+        
+        // Open the URL in a new tab or window
+        window.open(url, '_blank');
+      }
+      function openmediavault() {
+        // Replace 'https://example.com' with the URL you want to open
+        var url = 'https://openmediavault.hiheadquarter.uk';
+        
+        // Open the URL in a new tab or window
+        window.open(url, '_blank');
+      }
+      function chatbot() {
+        // Replace 'https://example.com' with the URL you want to open
+        var url = 'https://llama2.streamlit.app/';
+        
+        // Open the URL in a new tab or window
+        window.open(url, '_blank');
+      }
+  
+  
+  </script></body
 ></html>
